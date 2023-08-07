@@ -12,3 +12,8 @@ flowchart TD;
   I-->J[Call tokenize];
   J-->D;
 ```
+```mermaid
+flowchart TD;
+  A[Print_env is called]-->B[Uses i to iterate through environ];
+  B-->C[Prints environ[i]];
+```
