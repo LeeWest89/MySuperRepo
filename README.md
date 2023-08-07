@@ -3,5 +3,5 @@ My first readme
 flowchart TD;
   A[Simphell Starts]-->B[Is it interactive?];
   A-->C[Is it non-interavtive?];
-  C-->D[Is the command "exit"?];
+  C-->D[Is the command exit?];
 ```
