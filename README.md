@@ -12,3 +12,8 @@ flowchart TD;
   F--No-->I[Free path_copy];
   I-->J[Free path_token];
   J-->K[Return NULL];
+  G--No-->L[Free file_path];
+  L-->N[Move to next token];
+  G--Yes-->M[Free path_copy];
+  M-->O[Return file_path];
+```
