@@ -8,3 +8,7 @@ flowchart TD;
   C--Yes-->E[Is path_token true?];
   E--No-->F[Does command exist?];
   E--Yes-->G[Does file_path exist?];
+  F--Yes-->H[Return command];
+  F--No-->I[free path_copy
+free path_token
+return NULL];
