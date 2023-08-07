@@ -7,4 +7,3 @@ B--No-->C[Do nothing.];
 B--Yes-->D[Call find_location.];
 D-->E[is real_command NULL?];
 E--Yes-->[a];
-E--No-->[b];
