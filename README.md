@@ -13,3 +13,7 @@ H--No-->F;
 H--Yes-->I[Are you the child?];
 I--No-->J[wait];
 I--Yes-->K[Call execve];
+K-->L[Did it fail?];
+L--Yes-->F;
+L--No-->M[Free real_command];
+```
