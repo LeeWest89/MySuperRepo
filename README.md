@@ -10,4 +10,5 @@ flowchart TD;
   F--No-->H[execmd and free_arg.];
   B-->I[Prompt];
   I-->J[Call tokenize];
+  J-->D;
 ```
