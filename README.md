@@ -7,6 +7,6 @@ flowchart TD;
   D--Yes-->E[Call free_arg and break.];
   D--No-->F[Is the command env?];
   F--Yes-->G[Call env_cmd and continue.];
-  F--No-->H[execmd and free_arg.];
+  F--No-->H([execmd and free_arg.]);
   B-->D
 ```
