@@ -10,3 +10,6 @@ E--Yes-->F[perror];
 E--No-->G[Process Forks];
 G-->H[Did it fork?];
 H--No-->F;
+H--Yes-->I[Are you the child?];
+I--No-->J[wait];
+I--Yes-->K[Call execve(Did it fail)];
