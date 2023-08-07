@@ -3,4 +3,5 @@ My first readme
 graph TD;
   A[Simphell Starts]-->B[Is it interactive?];
   A-->C[Is it non-interavtive?];
+  C--Yes-->D[Is the command "exit"?];
 ```
