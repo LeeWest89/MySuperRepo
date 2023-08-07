@@ -8,5 +8,5 @@ flowchart TD;
   D--No-->F[Is the command env?];
   F--Yes-->G[Call env_cmd and continue.];
   F--No-->H[execmd and free_arg.];
-  B--Yes-->[make the prompt and call tokenize.];
+  B--Yes-->K[make the prompt and call tokenize.];
 ```
