@@ -9,4 +9,5 @@ flowchart TD;
   F--Yes-->G[Call env_cmd and continue.];
   F--No-->H[execmd and free_arg.];
   B-->I[Prompt];
+  I-->J[Call tokenize];
 ```
