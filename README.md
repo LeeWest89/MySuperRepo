@@ -2,8 +2,8 @@ My first readme
 
 ```mermaid
 flowchat TD;
-  A[Call _getenv]-->B[Iterate through environ];
+  A[Call getenv]-->B[Iterate through environ];
   B-->C[Set espos];
   C-->D[Set nl];
-  D-->E[Arename and nl the same?]
+  D-->E[Are name and nl the same?]
 ```
