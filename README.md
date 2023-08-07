@@ -8,3 +8,5 @@ B--Yes-->D[Call find_location.];
 D-->E[is real_command NULL?];
 E--Yes-->F[perror];
 E--No-->G[Process Forks];
+G-->H[Did it fork?];
+H--No-->F;
