@@ -15,5 +15,5 @@ flowchart TD;
 ```mermaid
 flowchart TD;
   A[Print_env is called]-->B[Uses i to iterate through environ];
-  B-->C[Prints environ[i]];
+  B-->C[Prints environ as it is iterarted];
 ```
