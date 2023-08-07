@@ -1,5 +1,5 @@
 My first readme
 ```mermaid
 graph TD;
-  A-->B;
+  A[Simphell Starts]-->B[Is it interactive?];
 ```
