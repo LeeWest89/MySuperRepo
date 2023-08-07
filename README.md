@@ -17,3 +17,7 @@ flowchart TD;
   A[Print_env is called]-->B[Uses i to iterate through environ];
   B-->C[Prints environ as it is iterarted];
 ```
+```mermaid
+flowchart LR;
+A[env_cmd is called]-->B[calls Print_env];
+```
