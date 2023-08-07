@@ -21,3 +21,8 @@ flowchart TD;
 flowchart LR;
 A[env_cmd is called]-->B[calls Print_env];
 ```
+```mermaid
+flowchart TD;
+A[execmd is called]-->B[is argv true?];
+B--No-->C[Do nothing.];
+B--Yes-->D[Call find_location.];
