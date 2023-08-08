@@ -13,4 +13,5 @@ flowchart TB;
   I-->J[While Token is true];
   J-->K[Added to token count];
   K-->L[Make memory for Tokens];
+  L-->M[Iterate through argv];
 ```
