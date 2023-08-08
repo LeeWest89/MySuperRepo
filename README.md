@@ -10,10 +10,4 @@ flowchart TB;
   F-->G[Was memory Allocated?];
   G--No-->H[perror];
   G--Yes-->I[Make Tokens from input];
-  I-->J[While Token is true];
-  J-->K[Added to token count];
-  K-->L[Make memory for Tokens];
-  L-->M[Iterate through argv];
-  M-->N[Copy Tokens to argv[i]];
-  N-->O[Free input,copy. Return argv];
 ```
