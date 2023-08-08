@@ -12,4 +12,5 @@ flowchart TB;
   G--Yes-->I[Make Tokens from input];
   I-->J[While Token is true];
   J-->K[Added to token count];
+  K-->L[Make memory for Tokens];
 ```
