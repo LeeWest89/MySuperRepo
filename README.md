@@ -15,4 +15,5 @@ flowchart TB;
   K-->L[Make memory for Tokens];
   L-->M[Iterate through argv];
   M-->N[Copy Tokens to argvi];
+  N-->O[Free input_copy.];
 ```
