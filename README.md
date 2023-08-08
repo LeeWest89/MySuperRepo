@@ -10,4 +10,5 @@ flowchart TB;
   F-->G[Was memory Allocated?];
   G--No-->H[perror];
   G--Yes-->I[Make Tokens from input];
+  I-->J[While Token is true];
 ```
